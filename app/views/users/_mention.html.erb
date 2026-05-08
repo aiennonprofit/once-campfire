@@ -1,4 +1,4 @@
 <div class="mention" sgid="<%= user.attachable_sgid %>">
   <%= avatar_tag user %>
-  <%= user.name %>
+  <%= user.name %><%= render "users/organization", user: user %>
 </div>

@@ -83,7 +83,7 @@
         <%= translation_button(:bio) %>
 
         <label class="flex align--center gap flex-item--grow input input--actor">
-          <%= form.text_area :bio, class: "input txt-large", placeholder: "A few words about yourself…", maxlength: 200,
+          <%= form.text_area :bio, class: "input txt-large", placeholder: "Your organization (optional)", maxlength: 200,
                 rows: 3, required: false %>
           <%= image_tag "bio.svg", aria: { hidden: "true" }, size: 24, class: "colorize--black" %>
         </label>
